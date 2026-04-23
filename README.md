@@ -22,7 +22,7 @@ This project focuses on predicting employee turnover (churn) by analyzing demogr
 - **Dataset:** 2500+ Rows / 28 Features.
 - **Tech Stack:** Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
   
- ### 📊 Data Dictionary / Veri Sözlüğü
+ ### 📊  Veri Sözlüğü
 
 | Türkçe Başlık (Dataset) | English Equivalent | Description / Açıklama |
 | :--- | :--- | :--- |
@@ -80,28 +80,28 @@ Bu proje, demografik ve performans verilerini analiz ederek çalışanların iş
 - **Veri Seti:** 2500+ Satır / 28 Özellik (Feature).
 - **Kullanılan Araçlar:** Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
 
- ### 📊 Data Dictionary / Veri Sözlüğü
+ ### 📊 Veri Sözlüğü
 
-| Türkçe Başlık (Dataset) | English Equivalent | Description / Açıklama |
+| Veri Seti Sütunu (Orijinal) | İngilizce Karşılığı | Açıklama |
 | :--- | :--- | :--- |
-| **İşten Çıkma Durumu** | **Churn Status** | **Target Variable (Target)** |
-| Yas_Araligi | Age Range | Employee's age group |
-| Banka / AVM / Enerji | Sector Indicators | Workplace / Sector type |
-| Fabrika / Holding / Universite | Workplace Type | Organization structure |
-| Guvenlik / CCVT | Security Roles | Specific security/monitoring roles |
-| Vardiya_Amiri | Shift Supervisor | Supervisory role status |
-| Guvenlik_Muduru | Security Manager | Managerial level status |
-| Emekli/Değil | Retirement Status | Whether the employee is retired |
-| Genel_Mudurluk / Istanbul | Location/HQ | Headquarters or city status |
-| Tasra | Province/Rural | Working in rural or provincial areas |
-| Calisma_Suresi_Grubu | Tenure Group | Seniority/working duration category |
-| Calistigi_Gun_Sayisi | Total Days Worked | Number of days employed |
-| Kamu / Özel | Public / Private | Employment sector |
-| Silahlı/Silahsız | Armed / Unarmed | Security license type |
-| Asgari Ücret ORANI | Minimum Wage Ratio | Salary relative to minimum wage |
-| Fazla Mesai Ücret Oranı | Overtime Pay Ratio | Percentage of overtime pay |
-| YOL / Yemek Ücreti Oranı | Travel/Meal Allowance | Benefit ratios |
-| PRİM Ücreti Oranı | Bonus/Premium Ratio | Additional performance pay ratio |
+| **İşten Çıkma Durumu** | **Churn Status** | **Hedef Değişken (Çalışanın ayrılma durumu)** |
+| Yas_Araligi | Age Range | Çalışanın yaş grubu |
+| Banka / AVM / Enerji | Sector Indicators | Çalışılan iş yeri / Sektör türü |
+| Fabrika / Holding / Universite | Workplace Type | Kurumsal yapı türü |
+| Guvenlik / CCVT | Security Roles | Güvenlik veya izleme odaklı görevler |
+| Vardiya_Amiri | Shift Supervisor | Vardiya amirliği durumu |
+| Guvenlik_Muduru | Security Manager | Güvenlik müdürlüğü/yöneticilik durumu |
+| Emekli/Değil | Retirement Status | Emeklilik durumu bilgisi |
+| Genel_Mudurluk / Istanbul | HQ / Istanbul | Genel müdürlük veya İstanbul lokasyonu |
+| Tasra | Province / Rural | Taşra veya kırsal bölgelerde çalışma durumu |
+| Calisma_Suresi_Grubu | Tenure Group | Kıdem ve çalışma süresi kategorisi |
+| Calistigi_Gun_Sayisi | Total Days Worked | Şirkette çalışılan toplam gün sayısı |
+| Kamu / Özel | Public / Private | İstihdam edilen sektör (Kamu veya Özel) |
+| Silahlı/Silahsız | Armed / Unarmed | Güvenlik kimlik kartı ve silah türü |
+| Asgari Ücret ORANI | Min. Wage Ratio | Maaşın asgari ücrete olan oranı |
+| Fazla Mesai Ücret Oranı | Overtime Pay Ratio | Fazla mesai ücretinin toplam içindeki oranı |
+| YOL / Yemek Ücreti Oranı | Benefits Ratio | Yol ve yemek ödeneği oranı |
+| PRİM Ücreti Oranı | Bonus Ratio | Prim ve ek ödeme oranı |
 
 ### 📈 Başarı Oranları
 İnce ayarlar ve eşik değeri (threshold) optimizasyonu sonucunda model şu değerlere ulaşmıştır:
