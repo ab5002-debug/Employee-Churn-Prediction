@@ -1,5 +1,4 @@
-# 📊 Employee Churn Prediction Model | Personel Ayrılma Tahmin Modeli
-
+# 📊 Employee Churn Prediction Model 
 
 
 ---
