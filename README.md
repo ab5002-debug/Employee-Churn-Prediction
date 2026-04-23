@@ -22,7 +22,7 @@ This project focuses on predicting employee turnover (churn) by analyzing demogr
 - **Dataset:** 2500+ Rows / 28 Features.
 - **Tech Stack:** Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
   
- ### 📊  Veri Sözlüğü
+ ### 📊  Data Dictionary
 
 | Türkçe Başlık (Dataset) | English Equivalent | Description / Açıklama |
 | :--- | :--- | :--- |
