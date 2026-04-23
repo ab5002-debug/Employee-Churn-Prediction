@@ -1,6 +1,6 @@
 # 📊 Employee Churn Prediction Model | Personel Ayrılma Tahmin Modeli
 
-[English] | [Türkçe](#türkçe)
+[English](#English) | [Türkçe](#türkçe)
 
 ---
 
