@@ -24,7 +24,7 @@ This project focuses on predicting employee turnover (churn) by analyzing demogr
   
  ### 📊  Data Dictionary
 
-| Türkçe Başlık (Dataset) | English Equivalent | Description / Açıklama |
+| Türkçe Başlık (Dataset) | English Equivalent | Description  |
 | :--- | :--- | :--- |
 | **İşten Çıkma Durumu** | **Churn Status** | **Target Variable (Target)** |
 | Yas_Araligi | Age Range | Employee's age group |
