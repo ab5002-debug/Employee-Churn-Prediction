@@ -80,6 +80,29 @@ Bu proje, demografik ve performans verilerini analiz ederek çalışanların iş
 - **Veri Seti:** 2500+ Satır / 28 Özellik (Feature).
 - **Kullanılan Araçlar:** Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
 
+ ### 📊 Data Dictionary / Veri Sözlüğü
+
+| Türkçe Başlık (Dataset) | English Equivalent | Description / Açıklama |
+| :--- | :--- | :--- |
+| **İşten Çıkma Durumu** | **Churn Status** | **Target Variable (Target)** |
+| Yas_Araligi | Age Range | Employee's age group |
+| Banka / AVM / Enerji | Sector Indicators | Workplace / Sector type |
+| Fabrika / Holding / Universite | Workplace Type | Organization structure |
+| Guvenlik / CCVT | Security Roles | Specific security/monitoring roles |
+| Vardiya_Amiri | Shift Supervisor | Supervisory role status |
+| Guvenlik_Muduru | Security Manager | Managerial level status |
+| Emekli/Değil | Retirement Status | Whether the employee is retired |
+| Genel_Mudurluk / Istanbul | Location/HQ | Headquarters or city status |
+| Tasra | Province/Rural | Working in rural or provincial areas |
+| Calisma_Suresi_Grubu | Tenure Group | Seniority/working duration category |
+| Calistigi_Gun_Sayisi | Total Days Worked | Number of days employed |
+| Kamu / Özel | Public / Private | Employment sector |
+| Silahlı/Silahsız | Armed / Unarmed | Security license type |
+| Asgari Ücret ORANI | Minimum Wage Ratio | Salary relative to minimum wage |
+| Fazla Mesai Ücret Oranı | Overtime Pay Ratio | Percentage of overtime pay |
+| YOL / Yemek Ücreti Oranı | Travel/Meal Allowance | Benefit ratios |
+| PRİM Ücreti Oranı | Bonus/Premium Ratio | Additional performance pay ratio |
+
 ### 📈 Başarı Oranları
 İnce ayarlar ve eşik değeri (threshold) optimizasyonu sonucunda model şu değerlere ulaşmıştır:
 
